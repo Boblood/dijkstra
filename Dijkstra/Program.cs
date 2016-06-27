@@ -175,6 +175,18 @@ namespace Dijkstra
             Console.WriteLine("Example 1: " + graph1.FindShortestPath());
             Console.WriteLine("Example 2: " + graph2.FindShortestPath());
             Console.WriteLine("Example 3: " + graph3.FindShortestPath());
+            
+
+            //A* code
+            Grid grid = new Grid(5, 5);
+            for (int i =1; i < 4; i++)
+            {
+                grid.MarkObstacle(2, i);
+            }
+            Console.WriteLine(grid.DrawGrid());
+
+            Grid grid1 = new Grid(10, 10);
+            Console.WriteLine(grid1.DrawGrid());
             Console.ReadLine();
         }
     }

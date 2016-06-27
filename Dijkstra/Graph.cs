@@ -21,7 +21,5 @@ namespace Dijkstra
             Al = new Algorithm(_paths);
             return Al.PrintBestPath();
         }
-
-        
     }
 }

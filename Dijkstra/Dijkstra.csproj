@@ -42,9 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithm.cs" />
+    <Compile Include="AStar.cs" />
     <Compile Include="Factory\INode.cs" />
     <Compile Include="Factory\INodeFactory.cs" />
     <Compile Include="Factory\NodeFactory.cs" />
+    <Compile Include="Grid.cs" />
+    <Compile Include="GridNode.cs" />
     <Compile Include="Iterator\ConcreteAggregate.cs" />
     <Compile Include="Iterator\IAggregate.cs" />
     <Compile Include="Iterator\INodeIterator.cs" />
