@@ -9,8 +9,6 @@ namespace Dijkstra
     public class Grid
     {
         public List<GridNode> _allNodes = new List<GridNode>();
-        public GridNode StartPoint;
-        public GridNode EndPoint;
 
         public Grid(int height, int width)
         {
@@ -20,8 +18,6 @@ namespace Dijkstra
 
         public Grid(int height, int width, GridNode startPoint, GridNode endPoint)
         {
-            StartPoint = startPoint;
-            EndPoint = endPoint;
             BuildGrid(width, height);
             BuildNeighbors();
         }

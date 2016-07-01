@@ -52,6 +52,7 @@
     <Compile Include="Iterator\IAggregate.cs" />
     <Compile Include="Iterator\INodeIterator.cs" />
     <Compile Include="Iterator\ConcreteNodeIterator.cs" />
+    <Compile Include="NodeState.cs" />
     <Compile Include="Path.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="Node.cs" />

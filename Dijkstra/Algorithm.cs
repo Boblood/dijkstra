@@ -209,6 +209,7 @@ namespace Dijkstra
                 {
                     return 999;
                 }
+
                 total += temp;
 
                 int finalNodeIndex = finalNode.Number - 1;
